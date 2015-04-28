@@ -65,26 +65,6 @@ margin-bottom:1px;
 font-size:18px;
 }
 
-.skills .jq {
-background:#97BE0D;
-}
-
-.skills .css {
-background:#D84F5F;
-}
-
-.skills .html {
-background:#88B8E6;
-}
-
-.skills .php {
-background:#BEDBE9;
-}
-
-.skills .sql {
-background:#EDEBEE;
-}
-
 .footer {
 position:fixed;
 bottom:0;

@@ -11,7 +11,7 @@ var o = {
 			defaultText = 'Proceso',
 			speed = 250;
 		
-		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#193340' });
+		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#343838' });
 		
 		var title = r.text(300, 300, defaultText).attr({
 			font: '20px Arial',
