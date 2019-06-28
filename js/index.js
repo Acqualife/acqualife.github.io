@@ -13,7 +13,9 @@ vid.pause();
 vidFade();
 }); 
 
-pauseButton.addEventListener("click", function() {
+vid.play();
+
+/**pauseButton.addEventListener("click", function() {
   vid.classList.toggle("stopfade");
   if (vid.paused) {
     vid.play();
@@ -22,5 +24,5 @@ pauseButton.addEventListener("click", function() {
     vid.pause();
     pauseButton.innerHTML = "Paused";
   }
-})
+})**/
 
