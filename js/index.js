@@ -13,14 +13,17 @@ vid.pause();
 vidFade();
 }); 
 
-pauseButton.addEventListener("click", function() {
-  vid.classList.toggle("stopfade");
-  if (vid.paused) {
-    vid.play();
-    pauseButton.innerHTML = "Pause";
-  } else {
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
-  }
-})
 
+document.addEventListener("DOMContentLoaded", function() { 
+    // this function runs when the DOM is ready, i.e. when the document has been parsed
+    pauseButton.addEventListener("click", function() {
+      vid.classList.toggle("stopfade");
+      if (vid.paused) {
+        vid.play();
+        pauseButton.innerHTML = "Pause";
+      } else {
+        vid.pause();
+        pauseButton.innerHTML = "Paused";
+      }
+    });
+});
