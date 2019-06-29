@@ -15,7 +15,7 @@ vidFade();
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    var pauseButton = document.querySelector("#acqua button");
+    var pauseButton = document.querySelector("#acqua");
     // this function runs when the DOM is ready, i.e. when the document has been parsed
     pauseButton.addEventListener("click", function() {
       vid.classList.toggle("stopfade");
