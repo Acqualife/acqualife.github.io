@@ -1,5 +1,5 @@
 var vid = document.getElementById("bgvid");
-var pauseButton = document.querySelector("#acqua button");
+var pauseButton = document.querySelector("#polina button");
 
 function vidFade() {
   vid.classList.add("stopfade");
@@ -13,9 +13,7 @@ vid.pause();
 vidFade();
 }); 
 
-vid.play();
-
-/**pauseButton.addEventListener("click", function() {
+pauseButton.addEventListener("click", function() {
   vid.classList.toggle("stopfade");
   if (vid.paused) {
     vid.play();
@@ -24,5 +22,5 @@ vid.play();
     vid.pause();
     pauseButton.innerHTML = "Paused";
   }
-})**/
+})
 
