@@ -1,6 +1,9 @@
 //var vid = document.getElementById("bgvid");
 
-$(window).load(function(){var v=document.getElementById("bgvid");if(v.paused){v.play();}});
+$(window).load(function() {
+  var v=document.getElementById("bgvid");
+    v.play();
+});
 
 
 /**function vidFade() {
