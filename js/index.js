@@ -1,7 +1,9 @@
-var vid = document.getElementById("bgvid");
+//var vid = document.getElementById("bgvid");
+
+$(window).load(function(){var v=document.getElementById("bgvid");if(v.paused){v.play();}});
 
 
-function vidFade() {
+/**function vidFade() {
   vid.classList.add("stopfade");
 }
 
@@ -27,4 +29,4 @@ document.addEventListener("DOMContentLoaded", function() {
         pauseButton.innerHTML = "Paused";
       }
     });
-});
+});**/
