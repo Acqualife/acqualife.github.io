@@ -1,9 +1,20 @@
 //var vid = document.getElementById("bgvid");
 
-$(window).load(function() {
+/**$(window).load(function() {
   var v=document.getElementById("bgvid");
     v.play();
-});
+});**/
+
+var promise = document.querySelector('bgvid').play();
+
+if (promise !== undefined) {
+    promise.then(_ => {
+        // Autoplay started!
+    }).catch(error => {
+        // Autoplay was prevented.
+        // Show a "Play" button so that user can start playback.
+    });
+}
 
 
 /**function vidFade() {
